@@ -1,0 +1,69 @@
+
+body{
+  background-image: url(https://github.com/gallol/proyecto-integral/blob/master/proyecto-integral-master/Imagenes/Netflix-Background.jpg?raw=true);
+  width: 100%;
+}
+.encabezado{
+  overflow: hidden;
+}
+#helpbar{
+  float: right;
+}
+.helpbarelem{
+  float: right;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+  list-style-type: none;
+  text-decoration: underline;
+}
+.helping{
+  color: red;
+}
+.containersection{
+  overflow: hidden;
+}
+#login{
+  font-family: sans-serif;
+  background-color: none;
+  color: red;
+  align-content: center;
+}
+#submit{
+  background-color: black;
+}
+.redlet{
+  color: red;
+}
+.panel{
+  width:30%;
+  background-color: black;
+  border-color: black;
+
+  margin: 5px;
+}
+
+.panel-default>.panel-heading {
+    color: black;
+    background-color: black;
+    border-color: black;
+}
+.panel-title{
+  color: red;
+}
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    background-image: none;
+}
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    color: red;
+    background-color: black;
+    border-color: red;
+}
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: red;
+    background-color: black;
+    border-color: red;
+  }
+.sendb a{
+    color: red;
+  }
