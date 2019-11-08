@@ -13,7 +13,7 @@
 
         <nav class="navbar navbar-light bg-transparent">
           <!-- IMAGEN DEL LOGO -->
-          <img src="https://github.com/gallol/proyecto-integral/blob/master/proyecto-integral-master/Imagenes/logo.png?raw=true" alt="Postflix">
+          <img class="logo" src="https://github.com/gallol/proyecto-integral/blob/master/proyecto-integral-master/Imagenes/logo.png?raw=true" alt="Postflix">
           <!-- BARRA DE NAVEGACION -->
           <form class="form-inline">
             <button class="btn btn-outline-success  col-lg-4 col-xs-12" id="boton" type="button">Home</button>
@@ -26,7 +26,7 @@
         </nav>
       </header>
       <!-- INFO DEL SITIO -->
-      <section class="intro-home col-lg-12 col-md-6 col-xs-4">
+      <section class="intro-home col-lg-12 col-md-6 col-xs-4 rounded-pill">
         <h1>Postflix!</h1>
         <br>
         <p>Únete a la comunidad mas grande de fanáticos de las series y películas de Netflix!</p>
