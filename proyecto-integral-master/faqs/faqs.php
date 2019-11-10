@@ -8,6 +8,8 @@
   <body>
     <div class="container">
         <h1>Preguntas Frecuentes</h1>
+          <button type="button" name="button">¿Que es Netflix?</button>
+
 
 
     </div>
