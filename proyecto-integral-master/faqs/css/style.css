@@ -22,3 +22,9 @@ button{
   color:white;
   text-align: justify;
 }
+  
+.btn-danger{
+  width: 25%;
+  color:white;
+
+}
