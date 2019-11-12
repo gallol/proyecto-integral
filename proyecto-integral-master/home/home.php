@@ -13,20 +13,34 @@
 
         <nav class="navbar navbar-light bg-transparent">
           <!-- IMAGEN DEL LOGO -->
-          <img class="logo" src="https://github.com/gallol/proyecto-integral/blob/master/proyecto-integral-master/Imagenes/logo.png?raw=true" alt="Postflix">
+          <a title="Logo PointFlix" href="home.php">
+            <img class="logo" src="https://github.com/gallol/proyecto-integral/blob/master/proyecto-integral-master/Imagenes/logo.png?raw=true" alt="Postflix">
+          </a>
+
           <!-- BARRA DE NAVEGACION -->
-          <form class="form-inline">
-            <button class="btn btn-outline-success  col-lg-4 col-xs-12" id="boton" type="button">Home</button>
-            <button class="btn btn-outline-success  col-lg-4 col-xs-12" id="boton" type="button">Login</button>
-            <button class="btn btn-outline-success  col-lg-4 col-xs-12" id="boton" type="button">Registro</button>
-            <button class="btn btn-outline-success  col-lg-4 col-xs-12" id="boton" type="button">Ayuda</button>
-            <button class="btn btn-outline-success  col-lg-4 col-xs-12" id="boton" type="button">Contacto</button>
+          <form class="form-inline   col-lg-4 col-xs-12">
+            <a title="Boton Home" href="home.php">
+              <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Home </button>
+            </a>
+
+            <a title="Boton Login" href="../login/login.php">
+              <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Login </button>
+            </a>
+            <a title="Boton Registro" href="">
+              <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Registro </button>
+            </a>
+            <a title="Boton Ayuda" href="../faqs/faqs.php">
+              <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Ayuda </button>
+            </a>
+            <a title="Boton Contacto" href="home.php">
+              <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Contacto </button>
+            </a>
             <!-- <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button> -->
           </form>
         </nav>
       </header>
       <!-- INFO DEL SITIO -->
-      <section class="intro-home col-lg-12 col-md-6 col-xs-4 rounded-pill">
+      <section class="intro-home col-lg-12 col-md-12 col-xs-12 rounded-pill">
         <h1>Postflix!</h1>
         <br>
         <p>Únete a la comunidad mas grande de fanáticos de las series y películas de Netflix!</p>

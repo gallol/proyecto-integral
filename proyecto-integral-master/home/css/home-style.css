@@ -21,15 +21,6 @@ nav .navbar{
   justify-content: center;
 }
 
-#boton{
-  background-color: #EFF7F5;
-}
-
-.btn-outline-success {
-  color: #000;
-  border-color: transparent;
-}
-
 form{
   margin-right: 25%;
 }
@@ -38,9 +29,12 @@ form{
   flex-flow: row;
 }
 
-button{
-  margin-right: 2%;
+/*//////  BOTONES! //////*/
+#boton{
+  background-color: #EFF7F5;
 }
+
+
 
 button:hover{
   color: #000;
@@ -49,6 +43,18 @@ button:hover{
 .btn{
   font-weight: 700;
   font-family: 'Muli', sans-serif;
+
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+.btn-outline-success {
+    color: #000;
+    border-color: #000;
 }
 /*////////               //////
 //////  INICIO DEL SECTION! //////
@@ -66,6 +72,7 @@ section h1{
   font-size: 60px;
   text-shadow: 2px 2px 1px #000;
 }
+
 
 section p{
   color: red;
