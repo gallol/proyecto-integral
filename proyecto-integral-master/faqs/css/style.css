@@ -4,25 +4,38 @@ body{
 }
 
 h1{
+  text-decoration: underline;
   text-align: center;
   color:white;
-  font-size: 40px;
+  font-size: 50px;
   margin: 0px 0px 8px;
+}
+h2{
+  text-align: center;
+  color:white;
+  font-size: 30px;
+}
+
+a{
+  color:white;
 }
 
 button{
   width:100%;
   background-color: grey;
   color: white;
+  margin-top: 1%;
 }
+
 
 .card-body{
   width:100%;
   background-color: grey;
   color:white;
   text-align: justify;
+  font-size: 20px;
 }
-  
+
 .btn-danger{
   width: 25%;
   color:white;
