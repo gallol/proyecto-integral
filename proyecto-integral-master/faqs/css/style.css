@@ -22,7 +22,7 @@ a{
 
 button{
   width:100%;
-  background-color: grey;
+  background-color: #303030;
   color: white;
   margin-top: 1%;
 }
@@ -30,7 +30,7 @@ button{
 
 .card-body{
   width:100%;
-  background-color: grey;
+  background-color: #303030;
   color:white;
   text-align: justify;
   font-size: 20px;
