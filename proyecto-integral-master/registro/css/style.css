@@ -1,0 +1,14 @@
+body{
+  background-color: white;
+}
+input.form-control {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+span#inputGroup-sizing-default{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  font: 20px "verdana";
+  }
