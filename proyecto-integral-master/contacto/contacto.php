@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="./css/contacto-style.css" rel="stylesheet">
-    <title>Contacto PointFlix</title>
+    <link rel="stylesheet" href="css/contact-style.css" >
+    <title>Contacto PostFlix</title>
   </head>
   <body>
     <div class="container">
@@ -13,13 +13,13 @@
 
         <nav class="navbar navbar-light bg-transparent">
           <!-- IMAGEN DEL LOGO -->
-          <a title="Logo PointFlix" href="home.php">
+          <a title="Logo PostFlix" href="..\home\home.php">
             <img class="logo" src="https://github.com/gallol/proyecto-integral/blob/master/proyecto-integral-master/Imagenes/logo.png?raw=true" alt="Postflix">
           </a>
 
           <!-- BARRA DE NAVEGACION -->
           <form class="form-inline   col-lg-4 col-xs-12">
-            <a title="Boton Home" href="home.php">
+            <a title="Boton Home" href="..\home\home.php">
               <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Home </button>
             </a>
 
@@ -32,7 +32,7 @@
             <a title="Boton Ayuda" href="../faqs/faqs.php">
               <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Ayuda </button>
             </a>
-            <a title="Boton Contacto" href="home.php">
+            <a title="Boton Contacto" href="../contacto/contacto.php">
               <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Contacto </button>
             </a>
             <!-- <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button> -->
@@ -40,7 +40,35 @@
         </nav>
       </header>
       <!-- COMIENZO DE CONTACTO POINTFLIX -->
-      <section class="intro-home col-lg-12 col-md-12 col-xs-12 rounded-pill">
+
+
+      <section class="contacto col-lg-12 col-md-12 col-xs-12">
+        <div class="h1titulo rounded-pill">
+          <br>
+          <h1>Contacte con nosotros!</h1>
+          <br>
+        </div>
+        <br>
+
+        <form class="form-signin rounded-pill">
+          <p>Nombre*</p>
+          <input type="text" id="inputNombre" class="form-control" placeholder="Ingrese su Nombre" required autofocus="">
+
+          <p>Apellido*</p>
+          <input type="text" id="inputNombre" class="form-control" placeholder="Ingrese su Apellido" required>
+
+          <p>E-mail*</p>
+          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus="">
+
+          <p>Dejanos tu comentario</p>
+          <textarea name="message" rows="8" cols="67" required autofocus="">
+
+            Escribe aqui tu comentario para contactar contigo.
+          </textarea>
+          <br>
+          <button id="botoncoment" class="btn" type="submit" >Enviar Comentario</button>
+          <br><br>
+        </form>
 
       </section>
     </div>
