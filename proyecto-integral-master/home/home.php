@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="./css/home-style.css" rel="stylesheet">
-    <title>PointFlix</title>
+    <title>PostFlix</title>
   </head>
   <body>
     <div class="container">
@@ -13,26 +13,26 @@
 
         <nav class="navbar navbar-light bg-transparent">
           <!-- IMAGEN DEL LOGO -->
-          <a title="Logo PointFlix" href="home.php">
+          <a title="Logo PostFlix" href="home.php">
             <img class="logo" src="https://github.com/gallol/proyecto-integral/blob/master/proyecto-integral-master/Imagenes/logo.png?raw=true" alt="Postflix">
           </a>
 
           <!-- BARRA DE NAVEGACION -->
           <form class="form-inline   col-lg-4 col-xs-12">
             <a title="Boton Home" href="home.php">
-              <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Home </button>
+              <button class="boton btn btn-outline-success" style="margin:10px" id="boton" type="button"> Home </button>
             </a>
 
             <a title="Boton Login" href="../login/login.php">
               <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Login </button>
             </a>
-            <a title="Boton Registro" href="">
+            <a title="Boton Registro" href="../registro/registro.php">
               <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Registro </button>
             </a>
             <a title="Boton Ayuda" href="../faqs/faqs.php">
               <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Ayuda </button>
             </a>
-            <a title="Boton Contacto" href="home.php">
+            <a title="Boton Contacto" href="../contacto/contacto.php">
               <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Contacto </button>
             </a>
             <!-- <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button> -->
