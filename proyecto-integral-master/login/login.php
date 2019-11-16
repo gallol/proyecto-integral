@@ -44,7 +44,7 @@
     <label>
       <input id="minion" type="checkbox" value="remember-me"> <a id="wity">Remember me</a>
   </div>
-  <button id="boton" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+  <button id="boton" class="btn btn-lg btn-primary btn-block" type="submit"><a id="signin" href="../perfil/perfil.php">Sign in</a></button>
   <p class="mini mt-5 mb-3 text-muted">©2019</p>
     </form>
   </div>
