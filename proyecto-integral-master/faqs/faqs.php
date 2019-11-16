@@ -12,7 +12,7 @@
 
         <nav class="navbar navbar-light bg-transparent">
           <!-- LOGO -->
-          <a title="PointFlix" href="home.php">
+          <a title="PointFlix" href="../home/home.php">
             <img class="logo" src="https://github.com/gallol/proyecto-integral/blob/master/proyecto-integral-master/Imagenes/logo.png?raw=true" alt="Postflix">
           </a>
 
