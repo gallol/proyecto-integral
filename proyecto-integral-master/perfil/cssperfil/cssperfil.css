@@ -8,6 +8,7 @@
 }
 #middletitle{
   margin-top: 7%;
+  background-image: url(proyecto-integral-master/Imagenes/fondo perfil.jpg);
 
 }
 .sidebar-sticky{
@@ -16,6 +17,9 @@
 }
 .nav-link{
   color: white;
+}
+#cuerpo{
+  background-image: url(proyecto-integral-master/Imagenes/fondo perfil.jpg);
 }
 #minititle{
   padding-top: 20px;

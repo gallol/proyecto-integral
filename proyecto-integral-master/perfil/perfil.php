@@ -34,11 +34,11 @@
 @-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style></head>
   <body>
     <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-  <img id="postflixlogo" class="mb-4" src="https://github.com/gallol/proyecto-integral/blob/master/proyecto-integral-master/Imagenes/logo.png?raw=true" alt="" width="120" height="25">
+<a href="../home/home.php"><img id="postflixlogo" class="mb-4" src="https://github.com/gallol/proyecto-integral/blob/master/proyecto-integral-master/Imagenes/logo.png?raw=true" alt="" width="120" height="25"></a>
   <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
   <ul class="navbar-nav px-3">
     <li class="nav-item text-nowrap">
-      <a class="nav-link" href="#">Sign out</a>
+      <a class="nav-link" href="../login/login.php">Sign out</a>
     </li>
   </ul>
 </nav>
@@ -121,8 +121,8 @@
         <h1 class="h2">Username</h1>
         <div class="btn-toolbar mb-2 mb-md-0">
           <div class="btn-group mr-2">
-            <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
-            <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">My friends</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Followed posts</button>
           </div>
           <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
