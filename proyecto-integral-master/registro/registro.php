@@ -23,8 +23,8 @@
       <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
     </div>
     <div class="form-group col-md-6">
-      <label for="inputPassword4">Password</label>
-      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+      <label for="inputPassword4">Contraseña</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Contraseña">
     </div>
   </div>
   <div class="form-group">
