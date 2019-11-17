@@ -69,7 +69,7 @@
           <div class="carousel-item active">
             <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"></rect></svg>
             <div class="container">
-              <div class="carousel-caption text-left">
+              <div id="movie1" class="carousel-caption text-left">
                 <h1>Movie1</h1>
                 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                 <p><a class="btn btn-lg btn-primary" href="#" role="button">Check it out!</a></p>
@@ -111,7 +111,7 @@
 
       <div class="container-marketing">
 
-        <!-- Three columns of text below the carousel -->
+        <h1 id="yourfilms">Your Films</h1>
         <div class="row">
           <div class="col-lg-4">
             <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
@@ -157,7 +157,7 @@
 
 
       <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
+        <p class="float-right"><a id="bottom" href="#">Back to top</a></p>
         <p>© 2019 Postflix, Inc.</p>
       </footer>
     </main>
