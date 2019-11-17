@@ -1,8 +1,15 @@
 body{
-  background-color: white;
+  background-color: #303030;
 }
 .btn-primary {
     color: #fff;
     background-color: #dc1a28;
     border-color: #dc1a28;
+        margin-left: 40%;
 }
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: red;
+  }

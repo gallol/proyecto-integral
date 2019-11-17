@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href=".\css\style.css">
     <meta charset="utf-8">
     <title>Registrarse</title>
   </head>
@@ -19,11 +19,11 @@
       <form>
   <div class="form-row">
     <div class="form-group col-md-6 col-xs-12">
-      <label for="inputEmail4">Email</label>
+      <label for="inputEmail">Email</label>
       <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
     </div>
     <div class="form-group col-md-6">
-      <label for="inputPassword4">Contraseña</label>
+      <label for="inputPassword">Contraseña</label>
       <input type="password" class="form-control" id="inputPassword4" placeholder="Contraseña">
     </div>
   </div>
