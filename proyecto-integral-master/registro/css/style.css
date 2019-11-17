@@ -1,14 +1,8 @@
 body{
   background-color: white;
 }
-input.form-control {
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+.btn-primary {
+    color: #fff;
+    background-color: #dc1a28;
+    border-color: #dc1a28;
 }
-span#inputGroup-sizing-default{
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
-  font: 20px "verdana";
-  }
