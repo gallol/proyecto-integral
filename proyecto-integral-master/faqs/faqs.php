@@ -12,7 +12,7 @@
 
         <nav class="navbar navbar-light bg-transparent">
           <!-- LOGO -->
-          <a title="PointFlix" href="home.php">
+          <a title="PointFlix" href="../home/home.php">
             <img class="logo" src="https://github.com/gallol/proyecto-integral/blob/master/proyecto-integral-master/Imagenes/logo.png?raw=true" alt="Postflix">
           </a>
 
@@ -27,7 +27,7 @@
           <button type="button" name="button-b"><h2>¿Como me Registro?</h2></button>
           <div class="card-b">
             <div class="card-body">
-              Para registrarse en Postflix es muy simple, hace  <strong> <a href="registro.php">click aqui</a> </strong> y completa el registro para poder puntear tus peliculas o series favoritas!
+              Para registrarse en Postflix es muy simple, hace  <strong> <a href="../registro/registro.php">click aqui</a> </strong> y completa el registro para poder puntear tus peliculas o series favoritas!
             </div>
           </div>
           <button type="button" name="button-c"> <h2>¿Como recomiendo una pelicula o serie a un amigo?</h2> </button>
@@ -39,7 +39,7 @@
           <button type="button" name="button-d"> <h2>¿Aca podria ir otra pregunta ?</h2> </button>
           <div class="card-b">
             <div class="card-body">
-              Para registrarse en Postflix es muy simple, hace <strong> <a href="registro.php">click aqui</a> </strong> y completa el registro para poder puntear tus peliculas o series favoritas!
+              Para registrarse en Postflix es muy simple, hace <strong> <a href="../registro/registro.php">click aqui</a> </strong> y completa el registro para poder puntear tus peliculas o series favoritas!
             </div>
           </div>
 
