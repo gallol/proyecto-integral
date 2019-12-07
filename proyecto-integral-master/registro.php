@@ -26,11 +26,18 @@
       <label for="inputPassword">Contraseña</label>
       <input type="password" class="form-control" id="inputPassword4" placeholder="Contraseña">
     </div>
+    <div class="form-group col-md-6 col-xs-12" >
+      <label for="inputName">Nombre Completo</label>
+      <input type="text" class="form-control" id="inputName" placeholder="Nombre Completo">
+    </div>
+    <div class="form-group col-md-6" style='height:80px; color:white'>
+        <label for='password' >Foto de Perfil</label><br/>
+        <div class='pwdwidgetdiv' id='thepwddiv' ></div>
+        <input type='file' name='file' id='file' maxlength="50" />
+        <div id='register_file_errorloc' class='error' style='clear:both'></div>
+    </div>
   </div>
-  <div class="form-group">
-    <label for="inputName">Nombre Completo</label>
-    <input type="text" class="form-control" id="inputName" placeholder="Nombre Completo">
-  </div>
+
   <div class="form-group">
     <label for="inputAge">Edad</label>
     <input type="text" class="form-control" id="inputAge" placeholder="Edad">
@@ -80,9 +87,8 @@
       <input type="text" class="form-control" id="inputZip">
     </div>
   </div>
-  <div class="form-group">
 
-  </div>
+
   <button type="submit" class="btn btn-primary">Registrar</button>
 </form>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
