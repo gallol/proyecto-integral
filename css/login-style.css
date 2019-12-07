@@ -1,5 +1,5 @@
 body{
-  background-image: url(https://github.com/gallol/proyecto-integral/blob/master/proyecto-integral-master/Imagenes/Netflix-Background.jpg?raw=true);
+  background-image: url("../Imagenes/Netflix-Background.jpg");
   width: 100%;
   margin: 0 auto;
 }
