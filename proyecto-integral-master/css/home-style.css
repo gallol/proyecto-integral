@@ -7,15 +7,13 @@
 //////  FONDO DE PANTALLA //////
 /////////                ////*/
 body{
-  background-image: url(https://github.com/gallol/proyecto-integral/blob/master/proyecto-integral-master/Imagenes/Netflix-Background.jpg?raw=true);
+  background-image: url("../Imagenes/Netflix-Background.jpg");
   width: 100%;
   margin: 0 auto;
 }
 /*////////               //////
 //////  INICIO DEL HEADER! //////
 /////////                ////*/
-.logo{
-}
 
 nav .navbar{
   justify-content: center;
@@ -29,35 +27,7 @@ form{
   flex-flow: row;
 }
 
-/*//////  BOTONES! //////*/
-#boton{
-  background-color: #EFF7F5;
-}
 
-
-
-
-button:hover{
-  color: #000;
-
-}
-
-.btn{
-  font-weight: 700;
-  font-family: 'Muli', sans-serif;
-
-}
-
-.btn-outline-success:hover {
-    color: #fff;
-    background-color: #000;
-    border-color: #000;
-}
-
-.btn-outline-success {
-    color: #000;
-    border-color: #000;
-}
 /*////////               //////
 //////  INICIO DEL SECTION! //////
 /////////                ////*/
