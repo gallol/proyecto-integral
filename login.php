@@ -35,7 +35,7 @@
   <body class="text-center">
     <div class="container">
     <form class="form-signin">
-      <a href="./index.php"><img class="mb-4" src="https://github.com/gallol/proyecto-integral/blob/master/proyecto-integral-master/Imagenes/logo.png?raw=true" alt="" width="170" height="72"></a>
+      <a href="./index.php"><img class="mb-4" src="./Imagenes/logo.png" alt="" width="170" height="72"></a>
   <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
   <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
   <br>
