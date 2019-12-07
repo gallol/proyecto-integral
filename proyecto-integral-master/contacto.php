@@ -19,7 +19,7 @@
 
           <!-- BARRA DE NAVEGACION -->
           <form class="form-inline   col-lg-4 col-xs-12">
-            <a title="Boton Home" href="./index.php">
+            <a title="Boton Home" href="index.php">
               <button class="boton btn btn-outline-success" style="margin:10px" id="boton" type="button"> Home </button>
             </a>
 
@@ -28,6 +28,9 @@
             </a>
             <a title="Boton Registro" href="./registro.php">
               <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Registro </button>
+            </a>
+            <a title="Boton Mis Posts" href="./vistapost.php">
+              <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> MisPosts </button>
             </a>
             <a title="Boton Ayuda" href="./faqs.php">
               <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Ayuda </button>
