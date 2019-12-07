@@ -27,7 +27,31 @@ form{
   flex-flow: row;
 }
 
+/*//////  BOTONES! //////*/
+#boton{
+  background-color: #EFF7F5;
+}
 
+button:hover{
+  color: #000;
+}
+
+.btn{
+  font-weight: 700;
+  font-family: 'Muli', sans-serif;
+
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+.btn-outline-success {
+    color: #000;
+    border-color: #000;
+}
 /*////////               //////
 //////  INICIO DEL SECTION! //////
 /////////                ////*/
