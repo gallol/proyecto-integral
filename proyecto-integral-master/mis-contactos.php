@@ -39,10 +39,10 @@
   <input class="form-control form-control-dark w-100" type="text" placeholder="Buscar Contactos" aria-label="Search">
   <ul class="navbar-nav px-3">
     <li class="nav-item text-nowrap">
-      <a class="nav-link" href="../mis-contactos/mis-contactos.php">Buscar Contacto</a>
+      <a class="nav-link" href="#">Buscar Contacto</a>
     </li>
     <li class="nav-item text-nowrap">
-      <a class="nav-link" href="../login/login.php">Sign out</a>
+      <a class="nav-link" href="./login.php">Sign out</a>
     </li>
   </ul>
 </nav>
@@ -55,15 +55,20 @@
       <div class="sidebar-sticky bg-dark">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link active" href="">
+            <a class="nav-link active" href="./index.php">
                <span class="sr-only"></span>
                Home
             </a>
 
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="faqs.php">
+            <a class="nav-link" href="./faqs.php">
               F.A.Q
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.php">
+              Contact us
             </a>
           </li>
           <li class="nav-item">
@@ -79,11 +84,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#">
             Reports
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Contact us
             </a>
           </li>
         </ul>
@@ -129,14 +129,14 @@
       <!--      PARTE DEL USARNAME!!!     -->
       <!--                                   -->
       <div id="middletitle" class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Username</h1>
+        <h1 class="h2">Nombre de Usuario</h1>
         <div class="btn-toolbar mb-2 mb-md-0">
           <div class="btn-group mr-2">
-            <a href="../"><button type="button" class="btn btn-sm btn-outline-secondary">Followed posts</button></a>
+            <a href="./vistapost.php"><button type="button" class="btn btn-sm btn-outline-secondary">Mis Posteos</button></a>
           </div>
           <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-            This week
+            Esta Semana
           </button>
         </div>
       </div>
@@ -150,7 +150,7 @@
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="10%" height="105" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Contacto</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="80%" fill="#eceeef" dy=".3em">Username</text></svg>
+                <svg class="bd-placeholder-img card-img-top" width="10%" height="105" ><title>Contacto</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="80%" fill="#eceeef" dy=".3em">Nombre de Usuario</text></svg>
                 <button type="button" class="btn btn-light">+ Añadir Contacto</button>
                 <button type="button" class="btn btn-light">- Eliminar Contacto</button>
               </div>
@@ -159,7 +159,7 @@
 
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="10%" height="105" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Contacto</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="80%" fill="#eceeef" dy=".3em">Username</text></svg>
+                <svg class="bd-placeholder-img card-img-top" width="10%" height="105" ><title>Contacto</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="80%" fill="#eceeef" dy=".3em">Nombre de Usuario</text></svg>
                 <button type="button" class="btn btn-light">+ Añadir Contacto</button>
                 <button type="button" class="btn btn-light">- Eliminar Contacto</button>
               </div>
@@ -167,7 +167,7 @@
 
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="10%" height="105" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Contacto</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="80%" fill="#eceeef" dy=".3em">Username</text></svg>
+                <svg class="bd-placeholder-img card-img-top" width="10%" height="105" ><title>Contacto</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="80%" fill="#eceeef" dy=".3em">Nombre de Usuario</text></svg>
                 <button type="button" class="btn btn-light">+ Añadir Contacto</button>
                 <button type="button" class="btn btn-light">- Eliminar Contacto</button>
               </div>
@@ -175,7 +175,7 @@
 
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="10%" height="105" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Contacto</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="80%" fill="#eceeef" dy=".3em">Username</text></svg>
+                <svg class="bd-placeholder-img card-img-top" width="10%" height="105" ><title>Contacto</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="80%" fill="#eceeef" dy=".3em">Nombre de Usuario</text></svg>
                 <button type="button" class="btn btn-light">+ Añadir Contacto</button>
                 <button type="button" class="btn btn-light">- Eliminar Contacto</button>
               </div>
@@ -183,7 +183,7 @@
 
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="10%" height="105" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Contacto</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="80%" fill="#eceeef" dy=".3em">Username</text></svg>
+                <svg class="bd-placeholder-img card-img-top" width="10%" height="105" ><title>Contacto</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="80%" fill="#eceeef" dy=".3em">Nombre de Usuario</text></svg>
                 <button type="button" class="btn btn-light">+ Añadir Contacto</button>
                 <button type="button" class="btn btn-light">- Eliminar Contacto</button>
               </div>
@@ -191,7 +191,7 @@
 
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="10%" height="105" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Contacto</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="80%" fill="#eceeef" dy=".3em">Username</text></svg>
+                <svg class="bd-placeholder-img card-img-top" width="10%" height="105" ><title>Contacto</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="80%" fill="#eceeef" dy=".3em">Nombre de Usuario</text></svg>
                 <button type="button" class="btn btn-light">+ Añadir Contacto</button>
                 <button type="button" class="btn btn-light">- Eliminar Contacto</button>
               </div>
@@ -199,7 +199,7 @@
 
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="10%" height="105" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Contacto</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="80%" fill="#eceeef" dy=".3em">Username</text></svg>
+                <svg class="bd-placeholder-img card-img-top" width="10%" height="105" ><title>Contacto</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="80%" fill="#eceeef" dy=".3em">Nombre de Usuario</text></svg>
                 <button type="button" class="btn btn-light">+ Añadir Contacto</button>
                 <button type="button" class="btn btn-light">- Eliminar Contacto</button>
               </div>
