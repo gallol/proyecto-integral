@@ -14,7 +14,7 @@
         <nav class="navbar navbar-light bg-transparent">
           <!-- IMAGEN DEL LOGO -->
           <a title="Logo PostFlix" href="./index.php">
-            <img class="logo" src="https://github.com/gallol/proyecto-integral/blob/master/proyecto-integral-master/Imagenes/logo.png?raw=true" alt="Postflix">
+            <img class="logo" src="./Imagenes/logo.png" alt="Postflix">
           </a>
 
           <!-- BARRA DE NAVEGACION -->
