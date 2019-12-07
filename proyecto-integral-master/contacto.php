@@ -61,10 +61,7 @@
           <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus="">
 
           <p>Dejanos tu comentario</p>
-          <textarea name="message" rows="8" cols="67" required autofocus="">
-
-            Escribe aqui tu comentario para contactar contigo.
-          </textarea>
+          <textarea placeholder="Escribe aqui tu comentario para contactar contigo..." name="message" rows="8" cols="67"  ></textarea>
           <br>
           <button id="botoncoment" class="btn" type="submit" >Enviar Comentario</button>
           <br><br>
