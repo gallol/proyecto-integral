@@ -35,7 +35,7 @@
 <!--                                   -->
   <body>
     <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-<a href="./index.php"><img id="postflixlogo" class="mb-4" src="https://github.com/gallol/proyecto-integral/blob/master/proyecto-integral-master/Imagenes/logo.png?raw=true" alt="" width="120" height="25"></a>
+<a href="./index.php"><img id="postflixlogo" class="mb-4" src="./Imagenes/logo.png" alt="" width="120" height="25"></a>
   <input class="form-control form-control-dark w-100" type="text" placeholder="Buscar Contactos" aria-label="Search">
   <ul class="navbar-nav px-3">
     <li class="nav-item text-nowrap">
