@@ -10,6 +10,10 @@ a{
   color: white;
 }
 
+.sidebar-sticky{
+  margin-top: 40%;
+  height:700px;
+}  
 
 #minititle{
   padding-top: 14%;
