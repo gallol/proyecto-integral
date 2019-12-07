@@ -2,29 +2,52 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href=".\css\registro-style.css">
-    <meta charset="utf-8">
+    <link href="./css/registro-style.css" rel="stylesheet">
+      <meta charset="utf-8">
     <title>Registrarse</title>
   </head>
   <body>
     <div class="container">
+      <!-- BARRA DE NAVEGACION -->
+      <form class="form-inline"   "col-lg-4 col-xs-12">
+        <a title="Boton Home" href="index.php">
+          <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Home </button>
+        </a>
+
+        <a title="Boton Login" href="./login.php">
+          <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Login </button>
+        </a>
+        <a title="Boton Registro" href="./registro.php">
+          <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Registro </button>
+        </a>
+        <a title="Boton Mis Posts" href="./vistapost.php">
+          <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> MisPosts </button>
+        </a>
+        <a title="Boton Ayuda" href="./faqs.php">
+          <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Ayuda </button>
+        </a>
+        <a title="Boton Contacto" href="./contacto.php">
+          <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Contacto </button>
+        </a>
+        <!-- <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button> -->
+      </form>
       <header>
 
         <nav class="navbar navbar-light bg-transparent">
         <!-- LOGO -->
           <a title="PointFlix" href="./index.php">
-            <img class="logo" src="https://github.com/gallol/proyecto-integral/blob/master/proyecto-integral-master/Imagenes/logo.png?raw=true" alt="Postflix">
+            <img class="logo" src=".\Imagenes\logo.png" alt="Postflix">
           </a>
       </header>
       <form>
   <div class="form-row">
     <div class="form-group col-md-6 col-xs-12">
       <label for="inputEmail">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
     </div>
     <div class="form-group col-md-6">
       <label for="inputPassword">Contraseña</label>
-      <input type="password" class="form-control" id="inputPassword4" placeholder="Contraseña">
+      <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
     </div>
     <div class="form-group col-md-6 col-xs-12" >
       <label for="inputName">Nombre Completo</label>
