@@ -1,3 +1,24 @@
+<?php
+session_start();
+require_once 'funciones_proyecto.php';
+$arrayDeErrores = "";
+if($_POST) {
+    $arrayDeErrores = validarRegistracion($_POST);
+    if(count($arrayDeErrores) === 0) {
+        // REGISTRACION DE USUARIO
+        $usuarioFinal = [
+            'nombre' => trim($_POST['nombre']),
+            'email' => $_POST['email'],
+            'password' => password_hash($_POST['password'], PASSWORD_DEFAULT)
+        ];
+        // ENVIAR A LA BASE DE DATOS $usuarioFinal
+        $jsonDeUsuario = json_encode($usuarioFinal);
+        file_put_contents('usuarios.json', $jsonDeUsuario . PHP_EOL, FILE_APPEND);
+        header("Location: login.php");
+        exit;
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -29,8 +50,7 @@
         <a title="Boton Contacto" href="./contacto.php">
           <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Contacto </button>
         </a>
-        <!-- <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button> -->
-      </form>
+        </form>
       <header>
 
         <nav class="navbar navbar-light bg-transparent">
@@ -39,19 +59,28 @@
             <img class="logo" src=".\Imagenes\logo.png" alt="Postflix">
           </a>
       </header>
-      <form>
+      <form method="post" action="">
   <div class="form-row">
     <div class="form-group col-md-6 col-xs-12">
-      <label for="inputEmail">Email</label>
-      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="inputEmail" placeholder="Email"  name="email" value="<?= persistirDato($arrayDeErrores, 'email'); ?>">
+       <small class="text-danger"><?= isset($arrayDeErrores['email']) ? $arrayDeErrores['email'] : "" ?></small>
     </div>
     <div class="form-group col-md-6">
-      <label for="inputPassword">Contraseña</label>
-      <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+      <label for="password">Contraseña</label>
+      <input type="password" class="form-control" id="password" placeholder=" Contraseña" name="password">
+      <small class="text-danger"><?= isset($arrayDeErrores['password']) ? $arrayDeErrores['password'] : "" ?></small>
     </div>
+
     <div class="form-group col-md-6 col-xs-12" >
-      <label for="inputName">Nombre Completo</label>
-      <input type="text" class="form-control" id="inputName" placeholder="Nombre Completo">
+      <label for="nombre">Nombre Completo</label>
+      <input type="text" class="form-control" id="nombre" placeholder="Nombre Completo"  name="nombre" value="<?= persistirDato($arrayDeErrores, 'nombre'); ?>">
+      <small class="text-danger"><?= isset($arrayDeErrores['nombre']) ? $arrayDeErrores['nombre'] : "" ?></small>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="repassword">Repetir Contraseña</label>
+      <input type="password" class="form-control" id="repassword" placeholder="Repetir Contraseña"  name="repassword">
+      <small class="text-danger"><?= isset($arrayDeErrores['repassword']) ? $arrayDeErrores['repassword'] : "" ?></small>
     </div>
     <div class="form-group col-md-6" style='height:80px; color:white'>
         <label for='password' >Foto de Perfil</label><br/>
@@ -61,22 +90,22 @@
     </div>
   </div>
 
-  <div class="form-group">
-    <label for="inputAge">Edad</label>
-    <input type="text" class="form-control" id="inputAge" placeholder="Edad">
+  <!-- <div class="form-group">
+    <label for="edad">Edad</label>
+    <input type="text" class="form-control" id="edad" placeholder="Edad" name="edad">
   </div>
   <div class="form-group">
-    <label for="inputAddress">Direccion</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="Direccion">
+    <label for="address">Direccion</label>
+    <input type="text" class="form-control" id="addres" placeholder="Direccion"  name="address">
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="inputCity">Ciudad</label>
-      <input type="text" class="form-control" id="inputCity">
+      <label for="city">Ciudad</label>
+      <input type="text" class="form-control" id="city"  name="city">
     </div>
     <div class="form-group col-md-4">
-      <label for="inputState">Provincia</label>
-      <select id="inputState" class="form-control">
+      <label for="state">Provincia</label>
+      <select id="state" class="form-control" name="state">
         <option selected>Elegir...</option>
           <option> <li>Tucuman</li></option>
           <option><li>Prov. Buenos Aires</li></option>
@@ -106,10 +135,10 @@
       </select>
     </div>
     <div class="form-group col-md-2">
-      <label for="inputZip">Codigo Postal</label>
-      <input type="text" class="form-control" id="inputZip">
+      <label for="zip">Codigo Postal</label>
+      <input type="text" class="form-control" id="zip" name="zip">
     </div>
-  </div>
+  </div> -->
 
 
   <button type="submit" class="btn btn-primary">Registrar</button>
