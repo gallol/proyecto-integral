@@ -1,4 +1,33 @@
-<html lang="en"><head>
+<?php
+
+$password ="";
+$email = "";
+  if ($_POST) {
+      if (strlen($_POST["password"]) <= 2){
+      echo "La contraseña debe tener minimo 3 caracteres";
+    }
+    echo "<br>";
+    if (strlen($_POST["email"]) == 0){
+      echo "Debe completar el campo email.!";
+    }else{
+        if (filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) == false) {
+          echo "El mail no tiene el formato correcto";
+        }
+      };
+
+    if ((strlen($_POST["password"]) >= 3) && filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) == true){
+
+    header('Location: C:\xampp\htdocs\proyecto-integral-master\vistapost.php');exit;
+    }
+    $password = $_POST["password"];
+    $email = $_POST["email"];
+  }
+
+
+ ?>
+
+<html lang="en">
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -34,19 +63,47 @@
   </head>
   <body class="text-center">
     <div class="container">
-    <form class="form-signin">
-      <a href="./index.php"><img class="mb-4" src="./Imagenes/logo.png" alt="" width="170" height="72"></a>
-  <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
-  <br>
-  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
-  <div class="checkbox mb-3">
-    <label>
-      <input id="minion" type="checkbox" value="remember-me"> <a id="wity">Remember me</a>
-  </div>
-  <button id="boton" class="btn btn-lg btn-primary btn-block" type="submit"><a id="signin" href="./perfil.php">Sign in</a></button>
-  <p class="mini mt-5 mb-3 text-muted">©2019</p>
-    </form>
+    <div class="navbar">
+      <!-- BARRA DE NAVEGACION -->
+      <form class="form-inline   col-lg-4 col-xs-12">
+        <a class="elementsnavbar" title="Boton Home" href="index.php">
+          <button class="boton btn btn-outline-success" style="margin:10px" id="boton" type="button"> Home </button>
+        </a>
+
+        <a class="elementsnavbar" title="Boton Login" href="./login.php">
+          <button class="btn-outline-success" style="margin:10px" id="boton" type="button"> Login </button>
+        </a>
+        <a class="elementsnavbar" title="Boton Registro" href="./registro.php">
+          <button class="btn-outline-success" style="margin:10px" id="boton" type="button"> Registro </button>
+        </a>
+        <a class="elementsnavbar" title="Boton Mis Posts" href="./vistapost.php">
+          <button class="btn-outline-success" style="margin:10px" id="boton" type="button"> MisPosts </button>
+        </a>
+        <a class="elementsnavbar" title="Boton Ayuda" href="./faqs.php">
+          <button class="btn-outline-success" style="margin:10px" id="boton" type="button"> Ayuda </button>
+        </a>
+        <a class="elementsnavbar" title="Boton Contacto" href="./contacto.php">
+          <button class="btn-outline-success" style="margin:10px" id="boton" type="button"> Contacto </button>
+        </a>
+    </div>
+    <div class="signin1">
+      <form class="form-signin">
+        <a href="./index.php"><img class="mb-4" src="./Imagenes/logo.png" alt="" width="170" height="72"></a>
+    <h1 class="h3 mb-3 font-weight-normal">Completa con tus datos de usuario para ingresar</h1>
+    <input type="email" id="inputEmail" class="form-control" placeholder="Correo electronico" name="email" value="<?=$email?>" required="" autofocus="">
+    <br>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" name="password" value="<?=$password?>" required="">
+    <div class="checkbox mb-3">
+      <label>
+        <input id="minion" type="checkbox" value="remember-me"> <a id="wity">Recuerdame</a>
+    </div>
+    <button id="boton" class="btn btn-lg btn-primary btn-block" type="submit"><a id="signin" href="./perfil.php">¡Ingresa!</a></button>
+    <p class="mini mt-5 mb-3 text-muted">©2019</p>
+    <a class="footer" href="./registro.php">¿Todavia no te registraste?</a>
+    <a class="footer" href="./contacto.php">¿Necesitas ayuda para recuperar tu contraseña?</a>
+      </form>
+    </div>
+
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

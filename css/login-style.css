@@ -3,6 +3,33 @@ body{
   width: 100%;
   margin: 0 auto;
 }
+/* nav bar */
+.navbar{
+  display: flex;
+}
+.form-inline{
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+.elementsnavbar{
+  float: right;
+  margin-right: 20px;
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+.btn-outline-success {
+    color: #000;
+    border-color: #000;
+
+}
+
+/* login */
+
 .form-signin{
   margin-top: 10%;
 }
@@ -12,10 +39,12 @@ body{
 #minion{
   color: white;
 }
-#boton{
+#botonn{
   background-color: black;
   border-color: black;
   color: red;
+  width: 40%;
+  margin-left: 30%;
 }
 #inputEmail{
   width: 40%;
@@ -28,10 +57,7 @@ body{
 #wity{
   color: white;
 }
-#boton{
-  width: 40%;
-  margin-left: 30%;
-}
+
 #signin{
   color: red;
 }

@@ -35,10 +35,10 @@
   <body>
     <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
 <a href="./index.php"><img id="postflixlogo" class="mb-4" src="./Imagenes/logo.png" alt="" width="120" height="25"></a>
-  <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+  <input class="form-control form-control-dark w-100" type="text" placeholder="Buscar" aria-label="Search">
   <ul class="navbar-nav px-3">
     <li class="nav-item text-nowrap">
-      <a class="nav-link" href="../login/login.php">Sign out</a>
+      <a class="nav-link" href="./index.php">Cerrar sesion</a>
     </li>
   </ul>
 </nav>
@@ -49,34 +49,24 @@
       <div class="sidebar-sticky bg-dark">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link active" href="">
+            <a class="nav-link active" href="./index.php">
                <span class="sr-only"></span>
                Home
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              F.A.Q
+            <a class="nav-link" href="./faqs.php">
+              Preguntas frecuentes
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="./vistapost.php">
               Peliculas recomendadas
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-            <Contact></Contact>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-            Reports
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Contact us
+            <a class="nav-link" href="./contacto.php">
+              Contactanos
             </a>
           </li>
         </ul>
@@ -122,7 +112,7 @@
         <div class="btn-toolbar mb-2 mb-md-0">
           <div class="btn-group mr-2">
             <a class="mis-conactos" href="./mis-contactos.php"><button type="button" class="btn btn-sm btn-outline-secondary">Mis Contactos</button></a>
-            <a class="mis-contactos" href="./vistapost.php"><button type="button" class="btn btn-sm btn-outline-secondary">Mis posts</button></a>
+            <a class="mis-contactos" href="./vistapost.php"><button type="button" class="btn btn-sm btn-outline-secondary">Posteos</button></a>
           </div>
           <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
@@ -130,7 +120,7 @@
           </button>
         </div>
       </div>
-        <h2 id="minititle">Mis Favoritos</h2>
+        <h2 id="minititle">Mis Posteos</h2>
       <div class="album py-5 bg-light">
     <div class="container">
 
