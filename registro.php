@@ -61,11 +61,13 @@ if($_POST) {
       </header>
       <form method="post" action="">
   <div class="form-row">
+
     <div class="form-group col-md-6 col-xs-12">
       <label for="email">Email</label>
       <input type="email" class="form-control" id="inputEmail" placeholder="Email"  name="email" value="<?= persistirDato($arrayDeErrores, 'email'); ?>">
        <small class="text-danger"><?= isset($arrayDeErrores['email']) ? $arrayDeErrores['email'] : "" ?></small>
     </div>
+
     <div class="form-group col-md-6">
       <label for="password">Contraseña</label>
       <input type="password" class="form-control" id="password" placeholder=" Contraseña" name="password">
@@ -77,11 +79,13 @@ if($_POST) {
       <input type="text" class="form-control" id="nombre" placeholder="Nombre Completo"  name="nombre" value="<?= persistirDato($arrayDeErrores, 'nombre'); ?>">
       <small class="text-danger"><?= isset($arrayDeErrores['nombre']) ? $arrayDeErrores['nombre'] : "" ?></small>
     </div>
+
     <div class="form-group col-md-6">
       <label for="repassword">Repetir Contraseña</label>
       <input type="password" class="form-control" id="repassword" placeholder="Repetir Contraseña"  name="repassword">
       <small class="text-danger"><?= isset($arrayDeErrores['repassword']) ? $arrayDeErrores['repassword'] : "" ?></small>
     </div>
+
     <div class="form-group col-md-6" style='height:80px; color:white'>
         <label for='password' >Foto de Perfil</label><br/>
         <div class='pwdwidgetdiv' id='thepwddiv' ></div>
