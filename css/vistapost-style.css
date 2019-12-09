@@ -32,3 +32,12 @@ a{
     text-decoration: none;
     background-color: transparent;
 }
+.btn-outline-success {
+    color: red;
+    border-color: red;
+}
+.btn-outline-success:hover {
+    color: red;
+    background-color: black;
+    border-color: red;
+}

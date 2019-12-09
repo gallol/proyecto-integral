@@ -45,7 +45,7 @@ if($_POST) {
           <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> MisPosts </button>
         </a>
         <a title="Boton Ayuda" href="./faqs.php">
-          <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Ayuda </button>
+          <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> FAQS </button>
         </a>
         <a title="Boton Contacto" href="./contacto.php">
           <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Contacto </button>

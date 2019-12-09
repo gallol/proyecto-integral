@@ -25,9 +25,14 @@ label {
     background-color: #dc1a28;
     border-color: #dc1a28;
   }
-  button:hover{
+
+  button.btn.btn-primary:hover{
+    color:#FFF;
+    background-color: red;
+    border-color: #dc1a28;
+  }
+  .btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
     color: #fff;
-  }
-  .btn-primary:hover{
-    color:#fff;
-  }
+    background-color: red;
+    border-color: #dc1a28;
+}

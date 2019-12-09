@@ -16,7 +16,7 @@ if($_POST) {
         $jsonDeUsuario = json_encode($usuarioFinal);
         file_put_contents('usuarios.json', $jsonDeUsuario . PHP_EOL, FILE_APPEND);
         header("Location: vistapost.php");
-        exit;
+
     }
 }
 
@@ -50,7 +50,7 @@ if($_POST) {
           <button class="btn btn-outline colornav" style="margin:10px" type="button"> Mis Posts </button>
         </a>
         <a title="Boton Ayuda" href="./faqs.php">
-          <button class="btn btn-outline colornav" style="margin:10px" type="button"> Ayuda </button>
+          <button class="btn btn-outline colornav" style="margin:10px" type="button"> FAQS </button>
         </a>
         <a title="Boton Contacto" href="./contacto.php">
           <button class="btn btn-outline colornav" style="margin:10px" type="button"> Contacto </button>
