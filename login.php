@@ -67,23 +67,23 @@ $email = "";
       <!-- BARRA DE NAVEGACION -->
       <form class="form-inline   col-lg-4 col-xs-12">
         <a class="elementsnavbar" title="Boton Home" href="index.php">
-          <button class="boton btn btn-outline-success" style="margin:10px" id="boton" type="button"> Home </button>
+          <button class="btn-outline-success boton" style="margin:10px" type="button"> Home </button>
         </a>
 
         <a class="elementsnavbar" title="Boton Login" href="./login.php">
-          <button class="btn-outline-success" style="margin:10px" id="boton" type="button"> Login </button>
+          <button class="btn-outline-success boton" style="margin:10px" type="button"> Login </button>
         </a>
         <a class="elementsnavbar" title="Boton Registro" href="./registro.php">
-          <button class="btn-outline-success" style="margin:10px" id="boton" type="button"> Registro </button>
+          <button class="btn-outline-success boton" style="margin:10px" type="button"> Registro </button>
         </a>
         <a class="elementsnavbar" title="Boton Mis Posts" href="./vistapost.php">
-          <button class="btn-outline-success" style="margin:10px" id="boton" type="button"> MisPosts </button>
+          <button class="btn-outline-success boton" style="margin:10px" type="button"> MisPosts </button>
         </a>
         <a class="elementsnavbar" title="Boton Ayuda" href="./faqs.php">
-          <button class="btn-outline-success" style="margin:10px" id="boton" type="button"> Ayuda </button>
+          <button class="btn-outline-success boton" style="margin:10px" type="button"> Ayuda </button>
         </a>
         <a class="elementsnavbar" title="Boton Contacto" href="./contacto.php">
-          <button class="btn-outline-success" style="margin:10px" id="boton" type="button"> Contacto </button>
+          <button class="btn-outline-success boton" style="margin:10px" type="button"> Contacto </button>
         </a>
     </div>
     <div class="signin1">
@@ -97,7 +97,7 @@ $email = "";
       <label>
         <input id="minion" type="checkbox" value="remember-me"> <a id="wity">Recuerdame</a>
     </div>
-    <button id="boton" class="btn btn-lg btn-primary btn-block" type="submit"><a id="signin" href="./perfil.php">¡Ingresa!</a></button>
+    <button id="botonn" class="btn btn-lg btn-primary btn-block" type="submit"><a id="signin" href="./vistapost.php">¡Ingresa!</a></button>
     <p class="mini mt-5 mb-3 text-muted">©2019</p>
     <a class="footer" href="./registro.php">¿Todavia no te registraste?</a>
     <a class="footer" href="./contacto.php">¿Necesitas ayuda para recuperar tu contraseña?</a>

@@ -4,28 +4,34 @@ body{
   margin: 0 auto;
 }
 /* nav bar */
-.navbar{
-  display: flex;
-}
-.form-inline{
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
+
+.form-inline {
+    display: flex;
+    overflow: hidden;
+  align-items: center;
 }
 .elementsnavbar{
   float: right;
   margin-right: 20px;
+  /* border-color: black; */
+  /* color: red; */
+  /* background-color: black; */
 }
 .btn-outline-success:hover {
-    color: #fff;
-    background-color: #000;
-    border-color: #000;
+    /* color: red; */
+    /* background-color: black; */
+    /* border-color: black; */
 }
-
+.boton{
+  float: right;
+  /* color: red; */
+  /* border-color: black; */
+  /* background-color: black; */
+}
 .btn-outline-success {
-    color: #000;
-    border-color: #000;
-
+    /* border-color: black; */
+    /* background-color: black; */
+    /* color: red; */
 }
 
 /* login */
