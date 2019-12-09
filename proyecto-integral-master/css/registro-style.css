@@ -1,0 +1,33 @@
+body{
+  background-color: #303030;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #dc1a28;
+    border-color: #dc1a28;
+    margin-left: 40%;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: red;
+  }
+  .form-inline{
+    flex-flow: row;
+    margin-left: 45%;
+  }
+  .btn-outline-success {
+    color: #dc1a28;
+    border-color: #dc1a28;
+  }
+ .btn-outline-success:hover {
+    color: #fff;
+    background-color: #dc1a28;
+    border-color: #dc1a28;
+  }
+  button:hover{
+    color: #fff;
+  }
+  .btn-primary:hover{
+    color:#fff;
+  }

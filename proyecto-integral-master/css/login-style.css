@@ -1,0 +1,50 @@
+body{
+  background-image: url("../Imagenes/Netflix-Background.jpg");
+  width: 100%;
+  margin: 0 auto;
+}
+/* nav bar */
+.navbar{
+  margin-left: 50%;
+}
+.form-inline{
+  flex-flow: row;
+}
+.btn.btn-outline.colornav {
+  color:red;
+  border-color:red;
+}
+
+/* login */
+
+.form-signin{
+  margin-top: 10%;
+}
+.h3{
+  color: white;
+}
+#minion{
+  color: white;
+}
+#botonn{
+  background-color: black;
+  border-color: black;
+  color: red;
+  width: 40%;
+  margin-left: 30%;
+}
+#inputEmail{
+  width: 40%;
+  margin-left: 30%;
+}
+#inputPassword{
+  width: 40%;
+  margin-left: 30%;
+}
+#wity{
+  color: white;
+}
+
+#signin{
+  color: red;
+}
