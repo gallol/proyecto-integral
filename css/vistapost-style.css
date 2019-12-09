@@ -2,16 +2,13 @@ body{
   width: 100%;
 }
 .container-marketing{
-margin-top: 25px;
+margin-top: 30px;
 margin-left: 10px;
 }
 #postflixlogo{
   margin-top: 18px;
 }
-.btn-outline-success {
-    color: red;
-    border-color: red;
-}
+
 .btn-primary {
     color: red;
     background-color: black;

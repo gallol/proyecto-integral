@@ -61,7 +61,7 @@
           <input type="text" id="inputNombre" class="form-control" placeholder="Ingrese su Apellido" required>
 
           <p>E-mail*</p>
-          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus="">
+          <input type="email" id="inputEmail" class="form-control" placeholder="Correo electronico" required autofocus="">
 
           <p>Dejanos tu comentario</p>
           <textarea placeholder="Escribe aqui tu comentario para contactar contigo..." name="message" rows="8" cols="67"  ></textarea>

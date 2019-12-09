@@ -19,10 +19,6 @@
 
           <!-- BARRA DE NAVEGACION -->
           <form class="form-inline   col-lg-4 col-xs-12">
-            <a title="Boton Home" href="index.php">
-              <button class="boton btn btn-outline-success" style="margin:10px" id="boton" type="button"> Home </button>
-            </a>
-
             <a title="Boton Login" href="./login.php">
               <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Login </button>
             </a>
@@ -33,7 +29,7 @@
               <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> MisPosts </button>
             </a>
             <a title="Boton Ayuda" href="./faqs.php">
-              <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Ayuda </button>
+              <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> F.A.Q.S </button>
             </a>
             <a title="Boton Contacto" href="./contacto.php">
               <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Contacto </button>
