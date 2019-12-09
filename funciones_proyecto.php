@@ -39,6 +39,30 @@ function validarRegistracion($unArray) {
     }
     return $errores;
 }
+
+function validarLogin($unArray) {
+    $errores = [];
+
+    if( isset($unArray['email']) ) {
+        if( empty($unArray['email']) ) {
+            $errores['email'] = "Este campo debe completarse.";
+        }
+        elseif( !filter_var($unArray['email'], FILTER_VALIDATE_EMAIL) ) {
+            $errores['email'] = "Debés ingresar un email válido.";
+        }
+    }
+    if( isset($unArray['password']) ) {
+        if( empty($unArray['password']) ) {
+            $errores['password'] = "Este campo debe completarse.";
+        }
+        elseif( strlen($unArray['password']) < 6 ) {
+            $errores['password'] = "Tu contraseña debe tener al menos 6 caracteres.";
+        }
+    }
+
+    return $errores;
+}
+
 function persistirDato($arrayE, $campo) {
     if( isset($arrayE[$campo]) ) {
         return "";
