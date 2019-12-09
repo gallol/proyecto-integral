@@ -4,36 +4,18 @@ body{
   margin: 0 auto;
 }
 /* nav bar */
-
-.form-inline {
-    display: flex;
-    overflow: hidden;
-  align-items: center;
+.navbar{
+  margin-left: 40%;
 }
-.elementsnavbar{
-  float: right;
-  margin-right: 20px;
-  /* border-color: black; */
-  /* color: red; */
-  /* background-color: black; */
-}
-.btn-outline-success:hover {
-    /* color: red; */
-    /* background-color: black; */
-    /* border-color: black; */
-}
-.boton{
-  float: right;
-  /* color: red; */
-  /* border-color: black; */
-  /* background-color: black; */
-}
-.btn-outline-success {
-    /* border-color: black; */
-    /* background-color: black; */
-    /* color: red; */
+.form-inline{
+  flex-flow: row;
+  /* margin-right: 10%; */
 }
 
+.colornav{
+  border-color: red;
+  color: red;
+}
 /* login */
 
 .form-signin{
