@@ -5,17 +5,16 @@ body{
 }
 /* nav bar */
 .navbar{
-  margin-left: 40%;
+  margin-left: 50%;
 }
 .form-inline{
   flex-flow: row;
-  /* margin-right: 10%; */
+}
+.btn.btn-outline.colornav {
+  color:red;
+  border-color:red;
 }
 
-.colornav{
-  border-color: red;
-  color: red;
-}
 /* login */
 
 .form-signin{

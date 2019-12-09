@@ -26,36 +26,13 @@ if($_POST) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.5">
-    <title>Postflix</title>
     <link rel="stylesheet" href="css/login-style.css">
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sign-in/">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Bootstrap core CSS -->
+
 <link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="signin.css" rel="stylesheet">
   </head>
   <body class="text-center">
     <div class="container">
@@ -63,23 +40,20 @@ if($_POST) {
       <!-- BARRA DE NAVEGACION -->
       <form class="form-inline"   "col-lg-4 col-xs-12">
         <a title="Boton Home" href="index.php">
-          <button class="btn btn-outline colornav" style="margin:10px" id="boton" type="button"> Home </button>
+          <button class="btn btn-outline colornav" style="margin:10px" type="button"> Home </button>
         </a>
 
-        <a title="Boton Login" href="./login.php">
-          <button class="btn btn-outline colornav" style="margin:10px" id="boton" type="button"> Login </button>
-        </a>
-        <a title="Boton Registro" href="./registro.php">
-          <button class="btn btn-outline colornav" style="margin:10px" id="boton" type="button"> Registro </button>
+            <a title="Boton Registro" href="./registro.php">
+          <button class="btn btn-outline colornav" style="margin:10px" type="button"> Registro </button>
         </a>
         <a title="Boton Mis Posts" href="./vistapost.php">
-          <button class="btn btn-outline colornav" style="margin:10px" id="boton" type="button"> Mis Posts </button>
+          <button class="btn btn-outline colornav" style="margin:10px" type="button"> Mis Posts </button>
         </a>
         <a title="Boton Ayuda" href="./faqs.php">
-          <button class="btn btn-outline colornav" style="margin:10px" id="boton" type="button"> Ayuda </button>
+          <button class="btn btn-outline colornav" style="margin:10px" type="button"> Ayuda </button>
         </a>
         <a title="Boton Contacto" href="./contacto.php">
-          <button class="btn btn-outline colornav" style="margin:10px" id="boton" type="button"> Contacto </button>
+          <button class="btn btn-outline colornav" style="margin:10px" type="button"> Contacto </button>
         </a>
         </form>
     </div>

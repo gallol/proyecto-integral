@@ -38,9 +38,9 @@ if($_POST) {
         <a title="Boton Login" href="./login.php">
           <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Login </button>
         </a>
-        <a title="Boton Registro" href="./registro.php">
+        <!-- <a title="Boton Registro" href="./registro.php">
           <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> Registro </button>
-        </a>
+        </a> -->
         <a title="Boton Mis Posts" href="./vistapost.php">
           <button class="btn btn-outline-success" style="margin:10px" id="boton" type="button"> MisPosts </button>
         </a>
