@@ -70,7 +70,8 @@ if($_POST) {
       <label>
         <input id="minion" type="checkbox" value="remember-me"> <a id="wity">Recuerdame</a>
     </div>
-      <button id="botonn" class="btn btn-lg btn-primary btn-block" type="submit"><a id="signin" href="./vistapost.php">¡Ingresa!</a></button>
+
+      <button id="botonn" class="btn btn-lg btn-primary btn-block" type="submit"><a id="signin">¡Ingresa!</a></button>
         <p class="mini mt-5 mb-3 text-muted">©2019</p>
         <a class="footer" href="./registro.php">¿Todavia no te registraste?</a>
         <a class="footer" href="./contacto.php">¿Necesitas ayuda para recuperar tu contraseña?</a>
