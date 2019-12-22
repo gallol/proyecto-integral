@@ -24,7 +24,7 @@ class Usuario{
     return $this->contraseña;
   }
   public function setContraseña($contraseña){
-     $this->contraseña = $contraseña;
+     $this->contraseña = $this->encriptarPass($contraseña);
   }
 
   public function getPosteo(){
@@ -56,6 +56,12 @@ class Usuario{
 
   public function eliminarContacto(){
     // echo "el contacto ha sido eliminado correctamente";
+  }
+
+  //ENCRIPTAR
+  private function encriptarPass($contraseña){
+    $hash = password_hash($contraseña, PASSWORD_DEFAULT);
+    return $hash;
   }
 
 }
