@@ -1,4 +1,10 @@
 <?php
+include("registro.php");
+include("funciones_proyecto.php");
+include("perfil.php");
+include("mis-contactos.php");
+
+
 class Usuario{
   protected $id_usuario;
   protected $nombreDeUsuario;
@@ -35,11 +41,19 @@ class Usuario{
   }
 
   public function crearUsuario(){
-    // echo "el usuario ha sido creado";
+    // REGISTRACION DE USUARIO
+    $usuarioFinal = [
+        'nombre' => trim($_POST['nombre']),
+        'email' => $_POST['email'],
+        'password' => password_hash($_POST['password'], PASSWORD_DEFAULT)
+    ];
+    // ENVIAR A LA BASE DE DATOS $usuarioFinal
+    $jsonDeUsuario = json_encode($usuarioFinal);
+    file_put_contents('usuarios.json', $jsonDeUsuario . PHP_EOL, FILE_APPEND);
   }
 
   public function crearContraseña(){
-    // echo "la contraseña fue creada";
+    // (Gera)para mi innecesario esta funcion porque podemos meter todos los datos en usuario
   }
 
   public function crearPost(){
@@ -51,7 +65,7 @@ class Usuario{
   }
 
   public function eliminarPost(){
-    // echo "el posteo ha sido eliminado correctamente";
+     return document.getElementById("eliminarPost").innerHTML="";
   }
 
   public function eliminarContacto(){

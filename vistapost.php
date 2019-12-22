@@ -28,6 +28,12 @@
             <li class="nav-item active">
               <a class="nav-link" href="./faqs.php">F.A.Q.S</a>
             </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./mis-contactos.php">Mis contactos</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./contacto.php">Ayuda</a>
+            </li>
           </ul>
           <form class="form-inline mt-2 mt-md-0">
             <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar">

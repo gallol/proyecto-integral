@@ -1,3 +1,10 @@
+<?php
+
+
+ ?>
+
+
+
 <html lang="en"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -134,6 +141,7 @@
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                  <input id="eliminarPost" type="reset" class="btn btn-sm btn-outline-secondary" name="eliminar" value="Eliminar Post">
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
@@ -150,6 +158,7 @@
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                  <input id="eliminarPost" type="reset" class="btn btn-sm btn-outline-secondary" name="eliminar" value="Eliminar Post">
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
@@ -165,6 +174,7 @@
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                  <input id="eliminarPost" type="reset" class="btn btn-sm btn-outline-secondary" name="eliminar" value="Eliminar Post">
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
@@ -180,6 +190,7 @@
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                  <input id="eliminarPost" type="reset" class="btn btn-sm btn-outline-secondary" name="eliminar" value="Eliminar Post">
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
@@ -196,6 +207,7 @@
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                  <input id="eliminarPost" type="reset" class="btn btn-sm btn-outline-secondary" name="eliminar" value="Eliminar Post">
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
@@ -211,6 +223,7 @@
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                  <input id="eliminarPost" type="reset" class="btn btn-sm btn-outline-secondary" name="eliminar" value="Eliminar Post">
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
@@ -226,6 +239,7 @@
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                  <input id="eliminarPost" type="reset" class="btn btn-sm btn-outline-secondary" name="eliminar" value="Eliminar Post">
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
