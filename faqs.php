@@ -53,7 +53,7 @@
   <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
   ¿Como me registro?  </button>
   <div class="dropdown-menu p-4 text-muted" style="max-width: 200px;">
-  <p> Para registrarse en Postflix es muy simple, hace  <strong> <a href="../registro/registro.php">click aqui</a> </strong> y completa el registro para poder puntear tus peliculas o series favoritas!</p>
+  <p> Para registrarse en Postflix es muy simple, hace  <strong> <a href="registro.php">click aqui</a> </strong> y completa el registro para poder puntear tus peliculas o series favoritas!</p>
 </div>
 </div>
 <div class="btn-group">

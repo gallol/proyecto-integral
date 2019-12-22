@@ -1,6 +1,5 @@
 <?php
-include("Usuario.php");
-
+//include 'Usuario.php';
 
 session_start();
 require_once 'funciones_proyecto.php';
@@ -12,12 +11,7 @@ if($_POST) {
         header("Location: login.php");
         exit;
     }
-
-
-
-
-
-
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -93,7 +87,6 @@ if($_POST) {
         <div id='register_file_errorloc' class='error' style='clear:both'></div>
     </div>
   </div>
-
   <!-- <div class="form-group">
     <label for="edad">Edad</label>
     <input type="text" class="form-control" id="edad" placeholder="Edad" name="edad">
