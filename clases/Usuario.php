@@ -5,11 +5,13 @@ include("perfil.php");
 include("mis-contactos.php");
 
 
+
 class Usuario{
   protected $id_usuario;
   protected $nombreDeUsuario;
   protected $contraseña;
   protected $posteo;
+  protected $contacto;
 
 
   public function getIdUsuario(){
@@ -33,13 +35,24 @@ class Usuario{
      $this->contraseña = $this->encriptarPass($contraseña);
   }
 
+
+//////////// DEBEN SER ARRAY DE POST //////////////////////
   public function getPosteo(){
     return $this->posteo;
   }
   public function setPosteo($posteo){
      $this->posteo = $posteo;
   }
+///////////////////////////////////////////////////////////
 
+//////////// DEBEN SER ARRAY DE USUARIOS /////////////////
+  public function getContacto(){
+    return $this->contacto;
+  }
+  public function setContacto($contacto){
+    $this->contacto = $contacto;
+  }
+///////////////////////////////////////////////////////
   public function crearUsuario(){
     // REGISTRACION DE USUARIO
     $usuarioFinal = [
